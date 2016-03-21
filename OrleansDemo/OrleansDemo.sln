@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyFirst", "MyFirst", "{EA26D22E-17E7-4F76-B39B-6A9429F0438D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiloHost", "SiloHost\SiloHost.csproj", "{2EC1DAA6-8201-428A-8741-43928894F754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainInterfaces", "GrainInterfaces\GrainInterfaces.csproj", "{E688102B-73EC-46F3-A632-95794A348AA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainsCollection", "GrainsCollection\GrainsCollection.csproj", "{DDD4007E-6123-45E3-80E1-6BE7072945C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EC1DAA6-8201-428A-8741-43928894F754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC1DAA6-8201-428A-8741-43928894F754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC1DAA6-8201-428A-8741-43928894F754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC1DAA6-8201-428A-8741-43928894F754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E688102B-73EC-46F3-A632-95794A348AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E688102B-73EC-46F3-A632-95794A348AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E688102B-73EC-46F3-A632-95794A348AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E688102B-73EC-46F3-A632-95794A348AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD4007E-6123-45E3-80E1-6BE7072945C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD4007E-6123-45E3-80E1-6BE7072945C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD4007E-6123-45E3-80E1-6BE7072945C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD4007E-6123-45E3-80E1-6BE7072945C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EC1DAA6-8201-428A-8741-43928894F754} = {EA26D22E-17E7-4F76-B39B-6A9429F0438D}
+		{E688102B-73EC-46F3-A632-95794A348AA0} = {EA26D22E-17E7-4F76-B39B-6A9429F0438D}
+		{DDD4007E-6123-45E3-80E1-6BE7072945C8} = {EA26D22E-17E7-4F76-B39B-6A9429F0438D}
+	EndGlobalSection
+EndGlobal
