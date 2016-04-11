@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansWebClient", "OrleansWebClient\OrleansWebClient.csproj", "{8AB56F06-A6A3-4DE0-A830-DA2CB203FF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansWebInterface", "..\OrleansWebHost\OrleansWebInterface\OrleansWebInterface.csproj", "{80D74B19-9A53-4A49-B5AB-A0D0A4A4214F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AB56F06-A6A3-4DE0-A830-DA2CB203FF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB56F06-A6A3-4DE0-A830-DA2CB203FF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB56F06-A6A3-4DE0-A830-DA2CB203FF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB56F06-A6A3-4DE0-A830-DA2CB203FF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D74B19-9A53-4A49-B5AB-A0D0A4A4214F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D74B19-9A53-4A49-B5AB-A0D0A4A4214F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D74B19-9A53-4A49-B5AB-A0D0A4A4214F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D74B19-9A53-4A49-B5AB-A0D0A4A4214F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
